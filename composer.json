@@ -1,0 +1,33 @@
+{
+    "name": "tapronto/tapronto-braspag-bundle",
+    "version": "0.0.1",
+    "type": "symfony-bundle",
+    "description": "Bundle for communication with the Braspag payment gateway",
+    "keywords": ["gateway", "payment", "braspag"],
+    "repositories": {
+        "tapronto": {
+            "vcs": {
+                "url" : "git://github.com/tapronto/TaprontoBraspagBundle.git"
+            }
+        }
+    },
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Tapronto",
+            "homepage": "http://www.tapronto.com.br"
+        },
+        {
+            "name": "Luã de Souza",
+            "email": "lsouza@tapronto.com.br"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.0,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tapronto\\BraspagBundle": ""
+        }
+    }
+}

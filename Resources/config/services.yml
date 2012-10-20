@@ -1,0 +1,6 @@
+services:
+   tapronto_braspag.pagador_transaction:
+       class: Tapronto\BraspagBundle\Service\PagadorTransactionService
+       arguments: [%tapronto_braspag.environment%]
+       calls:
+            - [ setMerchantId, [ %tapronto_braspag.merchant_id% ] ]
