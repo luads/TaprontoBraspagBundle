@@ -1,13 +1,26 @@
 <?php 
 
+/*
+ * This file is part of the Tapronto Braspag module.
+ *
+ * (c) 2012 Tapronto
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Tapronto\BraspagBundle\Tests\Braspag\Integration;
 
 use Tapronto\BraspagBundle\Model\CreditCardModel;
 use Tapronto\BraspagBundle\Model\BoletoModel;
 use Tapronto\BraspagBundle\Service\PagadorTransactionService;
 
+/**
+ * @author Luã de Souza <lsouza@tapronto.com.br>
+ */
 class PagadorTransactionServiceTest extends \PHPUnit_Framework_TestCase
 {
+	// TODO: isolar a chave de testes?
 	const HOMOLOG_KEY = '12345678-1234-1234-1234-123456789012';
 
 	public function testCreditCardAuthorizeSuccess()

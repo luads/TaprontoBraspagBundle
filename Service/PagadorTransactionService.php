@@ -1,5 +1,14 @@
 <?php 
 
+/*
+ * This file is part of the Tapronto Braspag module.
+ *
+ * (c) 2012 Tapronto
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Tapronto\BraspagBundle\Service;
 
 use Tapronto\BraspagBundle\Model\AbstractModel as PagadorTransactionModel;
@@ -7,6 +16,9 @@ use Tapronto\BraspagBundle\Model\AbstractModel as PagadorTransactionModel;
 use Tapronto\BraspagBundle\Exception\BraspagException;
 use Tapronto\BraspagBundle\Transaction\Request\AuthorizeRequest;
 
+/**
+ * @author Luã de Souza <lsouza@tapronto.com.br>
+ */
 class PagadorTransactionService extends AbstractBraspagService
 {
 	protected $wsVersion = '1.0';
@@ -45,7 +57,7 @@ class PagadorTransactionService extends AbstractBraspagService
                     'paymentData' => $paymentResponse,
                 );
     		} else {
-                // TODO: melhorar o retorn dos erros
+                // TODO: melhorar o retorno dos erros
     			return false;
     		}
     		
