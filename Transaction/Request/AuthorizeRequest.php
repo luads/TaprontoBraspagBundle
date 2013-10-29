@@ -16,7 +16,7 @@ use Tapronto\BraspagBundle\Transaction\Data\PaymentDataRequest;
 use Tapronto\BraspagBundle\Transaction\Data\OrderData;
 
 /**
- * @author Luã de Souza <lsouza@tapronto.com.br>
+ * @author Luã de Souza <contato@lsouza.pro.br>
  */
 class AuthorizeRequest
 {

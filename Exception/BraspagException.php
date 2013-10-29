@@ -12,7 +12,7 @@
 namespace Tapronto\BraspagBundle\Exception;
 
 /**
- * @author Luã de Souza <lsouza@tapronto.com.br>
+ * @author Luã de Souza <contato@lsouza.pro.br>
  */
 class BraspagException extends \Exception
 {

@@ -12,7 +12,7 @@
 namespace Tapronto\BraspagBundle\Transaction\Data;
 
 /**
- * @author Luã de Souza <lsouza@tapronto.com.br>
+ * @author Luã de Souza <contato@lsouza.pro.br>
  */
 class AdditionalData
 {

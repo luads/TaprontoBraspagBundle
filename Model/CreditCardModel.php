@@ -14,7 +14,7 @@ namespace Tapronto\BraspagBundle\Model;
 use Tapronto\BraspagBundle\Transaction\Data\CreditCardDataRequest;
 
 /**
- * @author Luã de Souza <lsouza@tapronto.com.br>
+ * @author Luã de Souza <contato@lsouza.pro.br>
  */
 class CreditCardModel extends AbstractModel
 {

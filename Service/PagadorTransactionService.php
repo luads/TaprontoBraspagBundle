@@ -17,7 +17,7 @@ use Tapronto\BraspagBundle\Exception\BraspagException;
 use Tapronto\BraspagBundle\Transaction\Request\AuthorizeRequest;
 
 /**
- * @author Luã de Souza <lsouza@tapronto.com.br>
+ * @author Luã de Souza <contato@lsouza.pro.br>
  */
 class PagadorTransactionService extends AbstractBraspagService
 {
