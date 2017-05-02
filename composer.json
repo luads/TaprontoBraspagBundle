@@ -7,7 +7,7 @@
     "repositories": {
         "tapronto": {
             "vcs": {
-                "url" : "git://github.com/tapronto/TaprontoBraspagBundle.git"
+                "url" : "git://github.com/hisamu/TaprontoBraspagBundle.git"
             }
         }
     },
